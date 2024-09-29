@@ -28,7 +28,7 @@ Follow these steps to set up the project locally:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/chat-app.git
+[git clone https://github.com/your-username/chat-app.git](https://github.com/ayushjha-2004/Real-Time-Chat-Application.git)
 ```
 2. Navigate to the Project Directory
 ```bash
@@ -47,6 +47,8 @@ Create a .env file in the root of the project and add the following variables:
 
 MONGO_URI=your_mongo_db_connection_string
 JWT_SECRET=your_jwt_secret
+PORT = 5000
+NODE_ENV = development
 ```
 5. Start the Development Server
 ```bash
